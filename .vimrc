@@ -41,7 +41,7 @@ set textwidth=0
 set laststatus=2
 
 " colorscheme
-colorscheme vividchalk
+colorscheme kate
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Here begins my automated wordcount addition.
@@ -227,3 +227,4 @@ function MyTabLine()
                                 let n .= pathshorten(bufname(b))
                         endif
                         " check and ++ tab's &modifie
+endfunction
